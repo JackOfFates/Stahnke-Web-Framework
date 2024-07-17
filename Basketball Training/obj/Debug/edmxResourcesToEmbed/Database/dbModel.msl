@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="basketballModelStoreContainer" CdmEntityContainer="basketballEntities11">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="basketballModel.Account">
+        <MappingFragment StoreEntitySet="Accounts">
+          <ScalarProperty Name="ProfileType" ColumnName="ProfileType" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sessions">
+      <EntityTypeMapping TypeName="basketballModel.Session">
+        <MappingFragment StoreEntitySet="Sessions">
+          <ScalarProperty Name="PruneRequired" ColumnName="PruneRequired" />
+          <ScalarProperty Name="RemoteHost" ColumnName="RemoteHost" />
+          <ScalarProperty Name="AutoRenewID" ColumnName="AutoRenewID" />
+          <ScalarProperty Name="ExpiresOn" ColumnName="ExpiresOn" />
+          <ScalarProperty Name="SessionUser" ColumnName="SessionUser" />
+          <ScalarProperty Name="SessionID" ColumnName="SessionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

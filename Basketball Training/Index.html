@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hoop N' Hustle - Index</title>
+    <link href="CSS/Theme.css" rel="stylesheet" />
+    <link href="CSS/jquery.shadow.css" rel="stylesheet" />
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/jquery.shadow.js"></script>
+    <script src="js/jquery.json.js"></script>
+    <script src="js/QueryBuilder.js"></script>
+    <script src="js/Main.js"></script>
+    <script src="js/Controllers/LoginController.js"></script>
+    <script src="js/basketball.js"></script>
+    <style>
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.box.sides-hz-2').shadow({ type: 'sides', sides: 'hz-2' });
+        })
+    </script>
+</head>
+<body>
+    <div id="bg"></div>
+    <div id="bgVector"></div>
+    <div style="display:table;direction:rtl;"></div>
+    <div class="topBar">
+        <img class="Logo" src="Images/Logo/basketball-border-paper-orange-basketball-hi_dark.png" />
+        <div id="tContent">
+            <label class="Title" id="weclomeLabel">Existing user</label> > <a class="Title" id="UsernameLink">Sign-in</a><br style="display: block; margin-top: 5px;" />
+            <form id="LoginForm" method="post" action="/Handlers/LoginController.ashx" onsubmit="event.preventDefault();">
+                <input type="text" id="Username" /> <input type="password" id="Password" /><input id="LoginButton" type="button" value="→" />
+            </form>
+        </div>
+    </div>
+
+    <div class="homeContent">
+        <div id="RegistrationContainer">
+            <ul>
+                <li><br /><label>New around here?<br /><b>Choose a service type.</b></label><br /></li>
+                <li><div class="homeButton" onclick="Player(false);">I'm a <b>Player</b></div></li>
+                <li class="divider"><div></div></li>
+                <li><div class="homeButton" onclick="Player(true);">I'm a <b>Player's Guardian</b></div></li>
+                <li class="divider"><div></div></li>
+                <li><div class="homeButton" onclick="Trainer();">I'm a <b>Trainer</b></div></li>
+            </ul>
+            <ul id="RegitrationInformation">
+                <li><br /><label><b>Registration</b></label><br /><br /></li>
+                <li><label>Username</label><br /><br /></li>
+                <li><input type="text" id="rUsername"/><br /></li>
+                <li class="divider"><div></div><br /></li>
+                <li><label>Password</label><br /><br /></li>
+                <li><input type="password" id="rPassword" /><br /><br /></li>
+                <li><input type="password" id="rcPassword" /><br /></li>
+                <li class="divider"><div></div><br /></li>
+                <li><label>Email</label><br /><br /></li>
+                <li><input type="text" id="rEmail" /><br /><br /></li>
+                <li><input id="LoginButton" type="button" value="→"/></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

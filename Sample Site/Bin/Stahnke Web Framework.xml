@@ -1,0 +1,93 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Stahnke Web Framework
+</name>
+</assembly>
+<members>
+<member name="T:StahnkeFramework.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:StahnkeFramework.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:StahnkeFramework.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:StahnkeFramework.My.Resources.Resources.jquery_1_11_2_min">
+<summary>
+  Looks up a localized string similar to /*! jQuery v1.11.2 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */
+!function(a,b){&quot;object&quot;==typeof module&amp;&amp;&quot;object&quot;==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(&quot;jQuery requires a window with a document&quot;);return b(a)}:b(a)}(&quot;undefined&quot;!=typeof window?window:this,function(a,b){var c=[],d=c.slice,e=c.concat,f=c.push,g=c.indexOf,h={},i=h.toString,j=h.hasOwnProperty,k={},l=&quot;1.11.2&quot;,m=function(a,b){return new m.fn.init(a,b)},n=/^[\s\uFEFF\xA [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StahnkeFramework.My.Resources.Resources.Main">
+<summary>
+  Looks up a localized string similar to function isNotNull(o) {
+    return (o != &apos;&apos; &amp;&amp; o != null &amp;&amp; o != &apos;undefined&apos;)
+}
+
+function parseSeller(b) {
+    var t = &apos;STANDARD&apos;;
+    if (b == true) { t = &apos;SELLER&apos; };
+    return t;
+}
+
+function AjaxPost(query, postData, callBack) {
+    $.ajax({
+        url: query,
+        type: &apos;POST&apos;,
+        data: createQuery(postData),
+        cache: false,
+        processData: false,
+        success: function (response) { callBack(response.Success, response.Data); },
+        error: function (response)  [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:StahnkeFramework.My.Resources.Resources.QueryBuilder">
+<summary>
+  Looks up a localized string similar to function QueryBuilder() {
+
+    var myBuilder = new Object();
+    var Entries = [];
+
+    function keyValueToQuery(newKey, newValue) {
+        return encodeURIComponent(newKey) + &apos;=&apos; + encodeURIComponent(newValue)
+    }
+
+    function combine(input, keyValuePair) {
+        return input + &apos;&amp;&apos; + keyValuePair
+    }
+
+    function appendEntry(input, newKey, newValue) {
+        var newEntry = keyValueToQuery(newKey, newValue)
+        return combine(input, newEntry)
+    }
+
+    function addEntry(kv)  [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="F:StahnkeFramework.UserRequest.SpeedLimit">
+ <summary>
+ Maximum POST bandwidth. Default: 500 (500 kbps)
+ </summary>
+</member>
+<member name="F:StahnkeFramework.UserRequest.MaxRequestSize">
+ <summary>
+ Total maximum POST size in bytes. Default: 128000 (128kb)
+ </summary>
+</member>
+<member name="F:StahnkeFramework.UserRequest.ClientBufferSize">
+ <summary>
+ Buffer size for client download operations. Default: 32768 (32KB)
+ </summary>
+</member>
+</members>
+</doc>

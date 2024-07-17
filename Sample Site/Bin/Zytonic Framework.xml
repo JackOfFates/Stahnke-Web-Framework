@@ -1,0 +1,604 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Zytonic Framework
+</name>
+</assembly>
+<members>
+<member name="M:Zytonic_Framework.Extentions.PointExtentions.OffsetByAngle(System.Drawing.Point,System.Int32,System.Int32)">
+ <summary>
+ Offsets the point by a provided distance
+ </summary>
+ <param name="Point">The base Drawing.Point to offset</param>
+ <param name="Distance">The amount of distance to offset</param>
+ <param name="Angle">The angle of which the offset moves</param>
+ <returns>Returns the offset point</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Extentions.PointExtentions.GetAngle(System.Drawing.Point,System.Drawing.Point)">
+ <summary>
+ Get the angle of two Drawing.Point(s)
+ </summary>
+ <param name="Point1">The first Drawing.Point</param>
+ <param name="Point2">The second Drawing.Point</param>
+ <returns>Returns Double</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Extentions.StringExtentions.Search(System.String,System.String)">
+ <summary>
+ Searches for a string within another string.
+ </summary>
+ <param name="Input">The String Containing the String You are Searching for.</param>
+ <param name="SearchFor"></param>
+ <returns>Indexies in an array.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Extentions.StringExtentions.Search(System.String,System.String,System.Int32)">
+ <summary>
+ Searches for a string within another string.
+ </summary>
+ <param name="Input">The String Containing the String You are Searching for.</param>
+ <param name="SearchFor"></param>
+ <param name="Startindex">Start Index Modifier.</param>
+ <returns>Indexies in an array.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Extentions.StringExtentions.Extract(System.String,System.String,System.String)">
+ <summary>
+ Get String In-between Two Strings.
+ </summary>
+ <param name="Input">The String Containing the String You are Extracting.</param>
+ <param name="StartString">The Start of the Tag.</param>
+ <param name="EndString"> The End of the Tag.</param>
+ <returns>Returns the Extracted String.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Extentions.StringExtentions.Extract(System.String,System.String,System.String,System.Int32)">
+ <summary>
+ Get String In-between Two Strings.
+ </summary>
+ <param name="Input">The String Containing the String You are Extracting.</param>
+ <param name="StartString">The Start of the Tag.</param>
+ <param name="EndString"> The End of the Tag.</param>
+ <param name="StartIndex">The Index to Start the Search.</param>
+ <returns>Returns the Extracted String.</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Extentions.FileInfoExtentions.GetMD5(System.IO.FileInfo)">
+ <summary>
+ Get the MD5 Hash of the specified FileInfo
+ </summary>
+ <param name="File">FileInfo Object</param>
+ <returns>MD5 Hash</returns>
+ <remarks></remarks>
+</member>
+<member name="T:Zytonic_Framework.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Zytonic_Framework.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Zytonic_Framework.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Zytonic_Framework.Utilities.Timers.IntervalTimer">
+ <summary>
+ A timer which raises the tick event after each interval.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.IntervalTimer.#ctor">
+ <summary>
+ Creates a new Interval Timer object.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.IntervalTimer.#ctor(System.Int32)">
+ <summary>
+ Creates a new Interval Timer object.
+ </summary>
+ <param name="Interval">The amount of time (in Milliseconds) to sleep after each tick</param>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.IntervalTimer.#ctor(System.Int32,System.Boolean)">
+ <summary>
+  Creates a new Interval Timer object.
+ </summary>
+ <param name="Interval">The number of times per second the timer will raise the tick event</param>
+ <param name="autoStart">If True the timer will start automatically.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.IntervalTimer.Stop">
+ <summary>
+ Stops the timer
+ </summary>
+ <remarks>If already disabled then this method will result in an exception.</remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.IntervalTimer.Start">
+ <summary>
+ Starts the Timer
+ </summary>
+ <remarks>If already enabled then this method will result in an exception.</remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.FpsTimer.#ctor">
+ <summary>
+ Creates a new FPS Timer object.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.FpsTimer.#ctor(System.Double)">
+ <summary>
+ Creates a new FPS Timer object.
+ </summary>
+ <param name="FramesPerSecond">The number of times per second the timer will raise the tick event</param>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.FpsTimer.#ctor(System.Double,System.Boolean)">
+ <summary>
+  Creates a new FPS Timer object.
+ </summary>
+ <param name="FramesPerSecond">The number of times per second the timer will raise the tick event</param>
+ <param name="autoStart">If True the timer will start automatically.</param>
+ <remarks></remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.FpsTimer.Stop">
+ <summary>
+ Stops the timer
+ </summary>
+ <remarks>If already disabled then this method will result in an exception.</remarks>
+</member>
+<member name="M:Zytonic_Framework.Utilities.Timers.FpsTimer.Start">
+ <summary>
+ Starts the Timer
+ </summary>
+ <remarks>If already enabled then this method will result in an exception.</remarks>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook">
+ <summary>
+ Class for intercepting low level keyboard hooks
+ </summary>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.VKeys">
+ <summary>
+ Virtual Keys
+ </summary>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.KeyboardHookHandler">
+ <summary>
+ Internal callback processing function
+ </summary>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.KeyboardHookCallback">
+ <summary>
+ Function that will be called when defined events occur
+ </summary>
+ <param name="key">VKeys</param>
+</member>
+<member name="F:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.hookID">
+ <summary>
+ Hook ID
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.Install">
+ <summary>
+ Install low level keyboard hook
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.Uninstall">
+ <summary>
+ Remove low level keyboard hook
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.SetHook(Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.KeyboardHookHandler)">
+ <summary>
+ Registers hook with Windows API
+ </summary>
+ <param name="proc">Callback function</param>
+ <returns>Hook ID</returns>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.HookFunc(System.Int32,System.IntPtr,System.IntPtr)">
+ <summary>
+ Default hook call, which analyses pressed keys
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.Finalize">
+ <summary>
+ Destructor. Unhook current hook
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.Input.Hooks.KeyboardHook.WM_KEYDOWN">
+ <summary>
+ Low-Level function declarations
+ </summary>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.MouseHook">
+ <summary>
+ Class for intercepting low level Windows mouse hooks.
+ </summary>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.MouseHook.MouseHookHandler">
+ <summary>
+ Internal callback processing function
+ </summary>
+</member>
+<member name="T:Zytonic_Framework.Windows.Input.Hooks.MouseHook.MouseHookCallback">
+ <summary>
+ Function to be called when defined even occurs
+ </summary>
+ <param name="mouseStruct">MSLLHOOKSTRUCT mouse structure</param>
+</member>
+<member name="F:Zytonic_Framework.Windows.Input.Hooks.MouseHook.hookID">
+ <summary>
+ Low level mouse hook's ID
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.MouseHook.Install">
+ <summary>
+ Install low level mouse hook
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.MouseHook.Uninstall">
+ <summary>
+ Remove low level mouse hook
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.MouseHook.Finalize">
+ <summary>
+ Destructor. Unhook current hook
+ </summary>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.MouseHook.SetHook(Zytonic_Framework.Windows.Input.Hooks.MouseHook.MouseHookHandler)">
+ <summary>
+ Sets hook and assigns its ID for tracking
+ </summary>
+ <param name="proc">Internal callback function</param>
+ <returns>Hook ID</returns>
+</member>
+<member name="M:Zytonic_Framework.Windows.Input.Hooks.MouseHook.HookFunc(System.Int32,System.IntPtr,System.IntPtr)">
+ <summary>
+ Callback function
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.SynchronousWindowPosition">
+ <summary>If the calling thread and the thread that owns the window are attached to different input queues,
+ the system posts the request to the thread that owns the window. This prevents the calling thread from
+ blocking its execution while other threads process the request.</summary>
+ <remarks>SWP_ASYNCWINDOWPOS</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DeferErase">
+ <summary>Prevents generation of the WM_SYNCPAINT message.</summary>
+ <remarks>SWP_DEFERERASE</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DrawFrame">
+ <summary>Draws a frame (defined in the window's class description) around the window.</summary>
+ <remarks>SWP_DRAWFRAME</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.FrameChanged">
+ <summary>Applies new frame styles set using the SetWindowLong function. Sends a WM_NCCALCSIZE message to
+ the window, even if the window's size is not being changed. If this flag is not specified, WM_NCCALCSIZE
+ is sent only when the window's size is being changed.</summary>
+ <remarks>SWP_FRAMECHANGED</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.HideWindow">
+ <summary>Hides the window.</summary>
+ <remarks>SWP_HIDEWINDOW</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DoNotActivate">
+ <summary>Does not activate the window. If this flag is not set, the window is activated and moved to the
+ top of either the topmost or non-topmost group (depending on the setting of the hWndInsertAfter
+ parameter).</summary>
+ <remarks>SWP_NOACTIVATE</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DoNotCopyBits">
+ <summary>Discards the entire contents of the client area. If this flag is not specified, the valid
+ contents of the client area are saved and copied back into the client area after the window is sized or
+ repositioned.</summary>
+ <remarks>SWP_NOCOPYBITS</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.IgnoreMove">
+ <summary>Retains the current position (ignores X and Y parameters).</summary>
+ <remarks>SWP_NOMOVE</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DoNotChangeOwnerZOrder">
+ <summary>Does not change the owner window's position in the Z order.</summary>
+ <remarks>SWP_NOOWNERZORDER</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DoNotRedraw">
+ <summary>Does not redraw changes. If this flag is set, no repainting of any kind occurs. This applies to
+ the client area, the nonclient area (including the title bar and scroll bars), and any part of the parent
+ window uncovered as a result of the window being moved. When this flag is set, the application must
+ explicitly invalidate or redraw any parts of the window and parent window that need redrawing.</summary>
+ <remarks>SWP_NOREDRAW</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DoNotReposition">
+ <summary>Same as the SWP_NOOWNERZORDER flag.</summary>
+ <remarks>SWP_NOREPOSITION</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.DoNotSendChangingEvent">
+ <summary>Prevents the window from receiving the WM_WINDOWPOSCHANGING message.</summary>
+ <remarks>SWP_NOSENDCHANGING</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.IgnoreResize">
+ <summary>Retains the current size (ignores the cx and cy parameters).</summary>
+ <remarks>SWP_NOSIZE</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.IgnoreZOrder">
+ <summary>Retains the current Z order (ignores the hWndInsertAfter parameter).</summary>
+ <remarks>SWP_NOZORDER</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.SWP.ShowWindow">
+ <summary>Displays the window.</summary>
+ <remarks>SWP_SHOWWINDOW</remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.Invalidate">
+ <summary>
+ Invalidates the rectangle or region that you specify in lprcUpdate or hrgnUpdate.
+ You can set only one of these parameters to a non-NULL value. If both are NULL, RDW_INVALIDATE invalidates the entire window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.InternalPaint">
+ <summary>Causes the OS to post a WM_PAINT message to the window regardless of whether a portion of the window is invalid.</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.Erase">
+ <summary>
+ Causes the window to receive a WM_ERASEBKGND message when the window is repainted.
+ Specify this value in combination with the RDW_INVALIDATE value; otherwise, RDW_ERASE has no effect.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.Validate">
+ <summary>
+ Validates the rectangle or region that you specify in lprcUpdate or hrgnUpdate.
+ You can set only one of these parameters to a non-NULL value. If both are NULL, RDW_VALIDATE validates the entire window.
+ This value does not affect internal WM_PAINT messages.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.NoErase">
+ <summary>Suppresses any pending WM_ERASEBKGND messages.</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.NoChildren">
+ <summary>Excludes child windows, if any, from the repainting operation.</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.AllChildren">
+ <summary>Includes child windows, if any, in the repainting operation.</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.UpdateNow">
+ <summary>Causes the affected windows, which you specify by setting the RDW_ALLCHILDREN and RDW_NOCHILDREN values, to receive WM_ERASEBKGND and WM_PAINT messages before the RedrawWindow returns, if necessary.</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.Window.RedrawFlags.EraseNow">
+ <summary>
+ Causes the affected windows, which you specify by setting the RDW_ALLCHILDREN and RDW_NOCHILDREN values, to receive WM_ERASEBKGND messages before RedrawWindow returns, if necessary.
+ The affected windows receive WM_PAINT messages at the ordinary time.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.NORMAL">
+ <summary>default operation</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.SRCCOPY">
+ <summary>dest = source</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.SRCPAINT">
+ <summary>dest = source OR dest</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.SRCAND">
+ <summary>dest = source AND dest</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.SRCINVERT">
+ <summary>dest = source XOR dest</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.SRCERASE">
+ <summary>dest = source AND (NOT dest)</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.NOTSRCCOPY">
+ <summary>dest = (NOT source)</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.NOTSRCERASE">
+ <summary>dest = (NOT src) AND (NOT dest)</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.MERGECOPY">
+ <summary>dest = (source AND pattern)</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.MERGEPAINT">
+ <summary>dest = (NOT source) OR dest</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.PATCOPY">
+ <summary>dest = pattern</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.PATPAINT">
+ <summary>dest = DPSnoo</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.PATINVERT">
+ <summary>dest = pattern XOR dest</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.DSTINVERT">
+ <summary>dest = (NOT dest)</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.BLACKNESS">
+ <summary>dest = BLACK</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.WHITENESS">
+ <summary>dest = WHITE</summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.DC.RasterOperation.CAPTUREBLT">
+ <summary>
+ Capture window as seen on screen.  This includes layered windows
+ such as WPF windows with AllowsTransparency="true"
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.NONE">
+ <summary>
+ No SW command, default value.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.HIDE">
+ <summary>
+ Hides the window and activates another window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.MAXIMIZE">
+ <summary>
+ Maximizes the specified window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.MINIMIZE">
+ <summary>
+ Minimizes the specified window and activates the next top-level window in the z-order.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.RESTORE">
+ <summary>
+ Activates and displays the window. If the window is minimized or maximized, Windows restores it to its original size and position. 
+ An application should specify this flag when restoring a minimized window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOW">
+ <summary>
+ Activates the window and displays it in its current size and position.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWDEFAULT">
+ <summary>
+ Sets the show state based on the SW_ flag specified in the STARTUPINFO structure passed to the CreateProcess function by the program that started the application. 
+ An application should call ShowWindow with this flag to set the initial show state of its main window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWMAXIMIZED">
+ <summary>
+ Activates the window and displays it as a maximized window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWMINIMIZED">
+ <summary>
+ Activates the window and displays it as a minimized window.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWMINNOACTIVE">
+ <summary>
+ Displays the window as a minimized window. The active window remains active.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWNA">
+ <summary>
+ Displays the window in its current state. The active window remains active.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWNOACTIVATE">
+ <summary>
+ Displays a window in its most recent size and position. The active window remains active.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.ShellExecuteInfo.SW.SHOWNORMAL">
+ <summary>
+ Activates and displays a window. If the window is minimized or maximized, Windows restores it to its original size and position.
+ An application should specify this flag when displaying the window for the first time.
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.MAPVK.VK_TO_VSC">
+ <summary>uCode is a virtual-key code and is translated into a scan code.
+ If it is a virtual-key code that does not distinguish between left- and
+ right-hand keys, the left-hand scan code is returned.
+ If there is no translation, the function returns 0.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.MAPVK.VSC_TO_VK">
+ <summary>uCode is a scan code and is translated into a virtual-key code that
+ does not distinguish between left- and right-hand keys. If there is no
+ translation, the function returns 0.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.MAPVK.VK_TO_CHAR">
+ <summary>uCode is a virtual-key code and is translated into an unshifted
+ character value in the low-order word of the return value. Dead keys (diacritics)
+ are indicated by setting the top bit of the return value. If there is no
+ translation, the function returns 0.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.MAPVK.VSC_TO_VK_EX">
+ <summary>Windows NT/2000/XP: uCode is a scan code and is translated into a
+ virtual-key code that distinguishes between left- and right-hand keys. If
+ there is no translation, the function returns 0.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.Move">
+ <summary>
+ Moves the cursor with the offset dx and dy
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MoveScreen">
+ <summary>
+ Places the cursor at the screen coordinates dx and dy
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MoveAbsolute">
+ <summary>
+ Places the cursor at the screen using dx and dy ranging from 0 (left/top) to 65535 (right/bottom)
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MoveVirtualDesktop">
+ <summary>
+ Places the cursor at the desktop using dx and dy ranging from 0 (left/top) to 65535 (right/bottom)
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.LeftDown">
+ <summary>
+ Press the left mouse button
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.LeftUp">
+ <summary>
+ Release the left mouse button
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.RightDown">
+ <summary>
+ Press the right mouse button
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.RightUp">
+ <summary>
+ Release the right mouse button
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MiddleDown">
+ <summary>
+ Press the middle mouse button
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MiddleUp">
+ <summary>
+ Release the middle mouse button
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.XDown">
+ <summary>
+ Press the XButton specified in the data member
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.XUp">
+ <summary>
+ Release the XButton specified in the data member
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MouseVWheel">
+ <summary>
+ Scroll the vertical mousewheel with the delta count of the data member
+ </summary>
+</member>
+<member name="F:Zytonic_Framework.Windows.APIs.wapi.Input.MouseEvent.MouseHWheel">
+ <summary>
+ Scroll the horizontal mousewheel with the delta count of the data member
+ </summary>
+</member>
+</members>
+</doc>

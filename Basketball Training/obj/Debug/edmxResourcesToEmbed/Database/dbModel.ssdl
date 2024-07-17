@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="basketballModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="varchar" MaxLength="38" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="128" Nullable="false" />
+    <Property Name="ProfileType" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Sessions">
+    <Key>
+      <PropertyRef Name="SessionID" />
+    </Key>
+    <Property Name="SessionID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="SessionUser" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="ExpiresOn" Type="datetime" Nullable="false" />
+    <Property Name="AutoRenewID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="RemoteHost" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="PruneRequired" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="basketballModelStoreContainer">
+    <EntitySet Name="Accounts" EntityType="Self.Accounts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sessions" EntityType="Self.Sessions" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

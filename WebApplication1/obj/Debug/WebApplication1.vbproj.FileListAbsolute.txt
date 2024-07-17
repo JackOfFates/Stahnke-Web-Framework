@@ -1,0 +1,9 @@
+H:\Stahnke Website\WebApplication1\bin\WebApplication1.dll.config
+H:\Stahnke Website\WebApplication1\bin\WebApplication1.dll
+H:\Stahnke Website\WebApplication1\bin\WebApplication1.pdb
+H:\Stahnke Website\WebApplication1\bin\WebApplication1.xml
+H:\Stahnke Website\WebApplication1\obj\Debug\WebApplication1.Resources.resources
+H:\Stahnke Website\WebApplication1\obj\Debug\WebApplication1.vbproj.GenerateResource.Cache
+H:\Stahnke Website\WebApplication1\obj\Debug\WebApplication1.dll
+H:\Stahnke Website\WebApplication1\obj\Debug\WebApplication1.xml
+H:\Stahnke Website\WebApplication1\obj\Debug\WebApplication1.pdb

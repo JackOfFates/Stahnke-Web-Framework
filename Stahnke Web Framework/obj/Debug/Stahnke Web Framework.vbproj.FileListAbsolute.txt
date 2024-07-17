@@ -1,0 +1,85 @@
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.dll
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.pdb
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.xml
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\MicroLibrary.dll
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.dll
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\MicroLibrary.pdb
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\MicroLibrary.xml
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.xml
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\obj\Debug\StahnkeFramework.Resources.resources
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbproj.GenerateResource.Cache
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.dll
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.xml
+h:\Documents\Visual Studio 2013\Projects\localhost_11825\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.pdb
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.dll.config
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.dll
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.pdb
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.xml
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\EntityFramework.dll
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\EntityFramework.SqlServer.dll
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\MicroSerializationLibrary.dll
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.dll
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Zytonic Framework.dll
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\EntityFramework.xml
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\EntityFramework.SqlServer.xml
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\MicroSerializationLibrary.pdb
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\MicroSerializationLibrary.xml
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.xml
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Zytonic Framework.pdb
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Zytonic Framework.xml
+H:\Stahnke Website\Stahnke Web Framework\obj\Debug\StahnkeFramework.Resources.resources
+H:\Stahnke Website\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbproj.GenerateResource.Cache
+H:\Stahnke Website\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.dll
+H:\Stahnke Website\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.xml
+H:\Stahnke Website\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.pdb
+H:\Stahnke Website\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbprojResolveAssemblyReference.cache
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Resources\jquery-1.11.2.min.js
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Resources\Main.js
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Resources\QueryBuilder.js
+H:\Stahnke Website\Stahnke Web Framework\bin\Debug\Resources\jquery.json.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\StahnkeFramework.Resources.resources
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbproj.GenerateResource.cache
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Resources\jquery-1.11.2.min.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Resources\jquery.json.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Resources\Main.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Resources\QueryBuilder.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.dll.config
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Stahnke Web Framework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\EntityFramework.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\MicroSerializationLibrary.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\EntityFramework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\MicroSerializationLibrary.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\MicroSerializationLibrary.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Zytonic Framework.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Zytonic Framework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbproj.CopyComplete
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbproj.AssemblyReference.cache
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\obj\Debug\Stahnke Web Framework.vbproj.CoreCompileInputs.cache
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.Bson.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Buffers.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Memory.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Web.Http.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.Bson.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\Newtonsoft.Json.Bson.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Buffers.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Memory.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Web.Http.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Stahnke Web Framework\bin\Debug\System.Web.Http.WebHost.xml

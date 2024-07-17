@@ -1,0 +1,36 @@
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\CSS\jquery.shadow.css
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\basketball.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\Controllers\LoginController.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\jquery-1.11.2.min.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\jquery.json.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\jquery.shadow.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\Main.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\js\QueryBuilder.js
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Basketball Training.dll.config
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Basketball Training.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Basketball Training.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Basketball Training.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\EntityFramework.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\EntityFramework.SqlServer.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\MicroSerializationLibrary.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Newtonsoft.Json.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Stahnke Web Framework.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Zytonic Framework.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\EntityFramework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\EntityFramework.SqlServer.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\MicroSerializationLibrary.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\MicroSerializationLibrary.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Newtonsoft.Json.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Stahnke Web Framework.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Stahnke Web Framework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Stahnke Web Framework.dll.config
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Zytonic Framework.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\bin\Zytonic Framework.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball_Training.Resources.resources
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.vbproj.GenerateResource.cache
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.vbproj.CopyComplete
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.dll
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.xml
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.pdb
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.vbproj.AssemblyReference.cache
+C:\Users\Vin\Desktop\Pathogenix-stahnke-web-framework-5c2fa7a068ff\Basketball Training\obj\Debug\Basketball Training.vbproj.CoreCompileInputs.cache
